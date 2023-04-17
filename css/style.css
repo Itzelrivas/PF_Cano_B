@@ -1,3 +1,18 @@
+.container {
+  margin: 0;
+  padding: 0;
+}
+.container header {
+  margin: 0;
+  background-color: pink;
+}
+.container header div {
+  padding: 0;
+}
 
+.header__logo {
+  width: 100%;
+  padding: 8%;
+}
 
 /*# sourceMappingURL=style.css.map */
