@@ -1,6 +1,6 @@
 .header {
   background-color: rgb(255, 205, 214);
-  padding: 0;
+  padding: 0%;
 }
 .header .header__logo img {
   width: 100%;
@@ -9,15 +9,16 @@
 
 .menu {
   background-color: rgb(183, 157, 10);
-  padding: 0;
+  padding: 0%;
 }
 .menu .menu__lista ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  padding: 0;
+  padding: 0%;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 5%;
 }
 .menu .menu__lista ul li {
   display: flex;
@@ -51,6 +52,42 @@
 @font-face {
   font-family: "parrafo2";
   src: url(../fonts/SimpleHandmade.otf);
+}
+.footer__rs ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: rgb(255, 205, 214);
+  padding: 1.5% 0% 1.5% 0%;
+  margin-bottom: 0%;
+}
+.footer__rs ul a {
+  font-family: "chocolate";
+  color: rgb(255, 56, 93);
+  font-size: 90%;
+  text-decoration: none;
+}
+
+.footer__autor {
+  background-color: rgb(255, 56, 93);
+}
+.footer__autor p {
+  display: flex;
+  justify-content: center;
+  font-family: "footer";
+  color: white;
+  font-size: 100%;
+  padding: 0.3% 0.3%;
+  margin: 0%;
+}
+
+.nombre {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.nombre img {
+  width: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */
