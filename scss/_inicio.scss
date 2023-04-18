@@ -2,3 +2,23 @@
     @include flex-center; margin-bottom: 5%;
     img{width: 40%;}
 }
+
+.textIni{
+    padding: 0% 3% 0% 3%;
+    p{@include parrafod}
+}
+.pini{padding: 0%;}
+.row{width: 100%; margin: 0%;}
+
+.imgini img{width: 100%; padding: 2%;}
+
+@media screen and (max-width: 768px){
+    .imgini img{margin-bottom: 1rem;}
+}
+
+.p2ini {
+    display: flex; 
+    p{
+        margin-bottom: 0%; display: flex; flex-wrap: wrap; align-content: center;
+    }
+}
