@@ -1,0 +1,42 @@
+$verde: rgb(14, 96, 14);
+
+.p-procedimientos p{
+    @include parrafod;
+    padding: 3% 3% 0% 3%;
+}
+
+.procedimiento {
+    background-color: beige;  width: 80%; margin-top: 4%; border-radius: 12px;
+}
+
+@media screen and (max-width: 768px){
+    .procedimiento{margin-top: 8%;}
+}
+
+.row{padding-top: 2%;}
+
+.procedimiento__fila2{
+    padding-bottom: 2%; 
+    .procedimiento__fila2--descripcion{
+        display: flex;
+        p{
+            font-family: 'chocolatel';
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            font-size: 125%;
+        }
+    }
+    .procedimiento__fila2--imagen{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-bottom: 3%;
+        img{
+            width: 100%;
+        }
+}
+}
+
+.procedimiento__titulo h2{color:$verde; margin-bottom: 0%;}

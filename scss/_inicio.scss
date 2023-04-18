@@ -22,3 +22,7 @@
         margin-bottom: 0%; display: flex; flex-wrap: wrap; align-content: center;
     }
 }
+
+.pfini p{
+    @include parrafod; margin-top: 1rem;
+}
