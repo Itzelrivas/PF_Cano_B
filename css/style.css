@@ -1,37 +1,56 @@
-.container {
-  margin: 0;
-  padding: 0;
-}
-.container header {
-  margin: 0;
+.header {
   background-color: rgb(255, 205, 214);
-  width: 100%;
-}
-.container header div {
   padding: 0;
 }
-
-.header__logo {
+.header .header__logo img {
   width: 100%;
   padding: 8%;
 }
 
-nav {
-  margin: 0;
+.menu {
   background-color: rgb(183, 157, 10);
-}
-nav .barra {
   padding: 0;
 }
-nav .barra ul {
+.menu .menu__lista ul {
   display: flex;
   justify-content: space-around;
-  align-content: center;
   list-style-type: none;
   padding: 0;
+  flex-wrap: wrap;
+  align-items: center;
 }
-nav .barra ul a {
+.menu .menu__lista ul li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.5%;
+}
+.menu .menu__lista ul li a {
   text-decoration: none;
+  color: white;
+  font-size: 90%;
+  font-family: "chocolatel";
+}
+
+@font-face {
+  font-family: "footer";
+  src: url(../fonts/Autography.otf);
+}
+@font-face {
+  font-family: "chocolatel";
+  src: url(../fonts/TT\ Chocolates\ Trial\ Light.otf);
+}
+@font-face {
+  font-family: "chocolate";
+  src: url(../fonts/TT\ Chocolates\ Trial\ Bold.otf);
+}
+@font-face {
+  font-family: "titulo";
+  src: url(../fonts/HangingRegular.ttf);
+}
+@font-face {
+  font-family: "parrafo2";
+  src: url(../fonts/SimpleHandmade.otf);
 }
 
 /*# sourceMappingURL=style.css.map */
