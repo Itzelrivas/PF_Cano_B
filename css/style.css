@@ -139,7 +139,7 @@
   margin-top: 1rem;
 }
 
-.p-procedimientos p {
+.pinicial p {
   font-family: "parrafo2";
   text-align: center;
   font-size: 130%;
@@ -189,6 +189,42 @@
 .procedimiento__titulo h2 {
   color: rgb(14, 96, 14);
   margin-bottom: 0%;
+}
+
+.promociones {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.promociones__tratamiento {
+  width: 65%;
+  margin-top: 4%;
+  background-color: rgb(14, 96, 14);
+  border-width: 10px;
+  border-style: double;
+  border-color: beige;
+}
+.promociones__tratamiento h2 {
+  text-align: center;
+  font-family: "chocolate";
+  color: beige;
+  margin-top: 1rem;
+}
+.promociones__tratamiento p {
+  text-align: center;
+  font-family: "chocolatel";
+  color: white;
+  margin: 1rem;
+}
+.promociones__tratamiento .promociones__tratamiento--imagen {
+  display: flex;
+  justify-content: center;
+}
+.promociones__tratamiento .promociones__tratamiento--imagen img {
+  width: 70%;
+  margin-bottom: 1rem;
 }
 
 .titulo {
