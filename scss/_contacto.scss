@@ -1,8 +1,7 @@
 .links-contacto{
     padding: 0% 3% 0% 3%;
     a{
-        display: flex; 
-        justify-content: center; 
+        @include flex-center; 
         padding: 2%; 
         background-color: $verde; 
         margin: 3% 30% 3% 30%; 
@@ -16,7 +15,7 @@
 .info-contacto{
     padding: 0% 3% 0% 3%; margin: 3% 0% 3% 0%;
     .info-contacto__p{
-        display: flex; flex-wrap: wrap; align-content: center;
+        @include flex-align-center;
         p{ @include parrafod; text-align: center; padding-top: 5%;}
     }
     iframe{width: 100%;}

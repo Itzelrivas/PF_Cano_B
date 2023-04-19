@@ -1,4 +1,4 @@
-.promociones{display: flex; flex-direction: column; flex-wrap: wrap; align-content: center;}
+.promociones{@include flex-align-center; flex-direction: column;}
 
 .promociones__tratamiento{
     width: 65%; 
@@ -10,7 +10,7 @@
     h2{text-align: center; font-family: 'chocolate'; color: beige; margin-top: 1rem;}
     p{text-align: center; font-family: 'chocolatel'; color: white; margin: 1rem;}
     .promociones__tratamiento--imagen{
-        display: flex; justify-content: center;
+        @include flex-center;
         img{width: 70%; margin-bottom: 1rem;}
     }
 }

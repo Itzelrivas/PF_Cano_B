@@ -17,16 +17,12 @@ $verde: rgb(20, 84, 20);
         p{
             font-family: 'chocolatel';
             text-align: center;
-            display: flex;
-            flex-wrap: wrap;
-            align-content: center;
+            @include flex-align-center;
             font-size: 125%;
         }
     }
     .procedimiento__fila2--imagen{
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
+        @include flex-align-center;
         padding-bottom: 3%;
         img{
             width: 100%;

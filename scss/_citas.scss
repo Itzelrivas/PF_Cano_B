@@ -1,5 +1,5 @@
 .citas{
-    display: flex; justify-content: center;
+    @include flex-center;
     .citas__pasos{
         width: 70%;
         ul{
@@ -12,7 +12,7 @@
             }
         }
         .citas__pasos--boton{
-            display: flex; justify-content: center; margin-bottom: 3%;
+            @include flex-center; margin-bottom: 3%;
             a{
                 background-color: $rosaf;
                 padding: 1% 4% 1% 4%;
@@ -21,6 +21,7 @@
                 border-radius: 10px;
                 font-size: 125%;
                 text-align: center;
+                margin-bottom: 0%;
             }
         }
     }

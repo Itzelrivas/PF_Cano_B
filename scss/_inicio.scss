@@ -19,7 +19,7 @@
 .p2ini {
     display: flex; 
     p{
-        margin-bottom: 0%; display: flex; flex-wrap: wrap; align-content: center;
+        margin-bottom: 0%; @include flex-align-center;
     }
 }
 

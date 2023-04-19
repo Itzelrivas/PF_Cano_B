@@ -192,9 +192,9 @@
 
 .promociones {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  flex-direction: column;
 }
 
 .promociones__tratamiento {
@@ -312,6 +312,7 @@
   border-radius: 10px;
   font-size: 125%;
   text-align: center;
+  margin-bottom: 0%;
 }
 
 .titulo {
