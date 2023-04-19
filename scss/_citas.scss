@@ -1,0 +1,25 @@
+.citas{
+    display: flex; justify-content: center;
+    .citas__pasos{
+        width: 70%;
+        ul{
+            list-style-type: decimal;
+            li{
+                font-family: 'chocolate';
+                font-size: 125%;
+                text-align: center;
+                padding: 3% 3%;
+            }
+        }
+        .citas__pasos--boton{
+            display: flex; justify-content: center; margin-bottom: 3%;
+            a{
+                background-color: $rosaf;
+                padding: 1% 4% 1% 4%;
+                font-family: 'chocolate';
+                color: white;
+                border-radius: 10px;
+            }
+        }
+    }
+}

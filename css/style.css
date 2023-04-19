@@ -139,13 +139,6 @@
   margin-top: 1rem;
 }
 
-.pinicial p {
-  font-family: "parrafo2";
-  text-align: center;
-  font-size: 130%;
-  padding: 3% 3% 0% 3%;
-}
-
 .procedimiento {
   background-color: beige;
   width: 80%;
@@ -187,7 +180,7 @@
 }
 
 .procedimiento__titulo h2 {
-  color: rgb(14, 96, 14);
+  color: rgb(20, 84, 20);
   margin-bottom: 0%;
 }
 
@@ -196,13 +189,12 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  padding: 0% 3% 3% 0%;
 }
 
 .promociones__tratamiento {
   width: 65%;
   margin-top: 4%;
-  background-color: rgb(14, 96, 14);
+  background-color: rgb(20, 84, 20);
   border-width: 10px;
   border-style: double;
   border-color: beige;
@@ -235,7 +227,7 @@
   display: flex;
   justify-content: center;
   padding: 2%;
-  background-color: rgb(14, 96, 14);
+  background-color: rgb(20, 84, 20);
   margin: 3% 30% 3% 30%;
   color: white;
   font-family: "chocolate";
@@ -276,9 +268,45 @@
   padding: 0% 3% 0% 3%;
 }
 
+.citas {
+  display: flex;
+  justify-content: center;
+}
+.citas .citas__pasos {
+  width: 70%;
+}
+.citas .citas__pasos ul {
+  list-style-type: decimal;
+}
+.citas .citas__pasos ul li {
+  font-family: "chocolate";
+  font-size: 125%;
+  text-align: center;
+  padding: 3% 3%;
+}
+.citas .citas__pasos .citas__pasos--boton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.citas .citas__pasos .citas__pasos--boton a {
+  background-color: rgb(255, 56, 93);
+  padding: 1% 4% 1% 4%;
+  font-family: "chocolate";
+  color: white;
+  border-radius: 10px;
+}
+
 .titulo {
   font-family: "titulo";
   padding-left: 5%;
+}
+
+.pinicial {
+  font-family: "parrafo2";
+  text-align: center;
+  font-size: 130%;
+  padding: 0% 3% 0% 3%;
 }
 
 /*# sourceMappingURL=style.css.map */

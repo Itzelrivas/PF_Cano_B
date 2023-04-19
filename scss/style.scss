@@ -10,3 +10,7 @@
 @import "citas";
 
 .titulo {@include titulo}
+
+.pinicial{
+    @include parrafod; padding: 0% 3% 0% 3%;
+}
