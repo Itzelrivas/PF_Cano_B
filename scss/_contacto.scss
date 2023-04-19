@@ -1,0 +1,31 @@
+.links-contacto{
+    padding: 0% 3% 0% 3%;
+    a{
+        display: flex; 
+        justify-content: center; 
+        padding: 2%; 
+        background-color: $verde; 
+        margin: 3% 30% 3% 30%; 
+        color: white; 
+        font-family: 'chocolate'; 
+        font-size: 125%; 
+        border-radius: 10px;
+    }
+}
+
+.info-contacto{
+    padding: 0% 3% 0% 3%; margin: 3% 0% 3% 0%;
+    .info-contacto__p{
+        display: flex; flex-wrap: wrap; align-content: center;
+        p{ @include parrafod; text-align: center; padding-top: 5%;}
+    }
+    iframe{width: 100%;}
+}
+
+@media screen and (max-width: 768px){
+    .info-contacto{flex-direction: column-reverse;}
+}
+
+.informacion__texf{@include parrafod; text-align: center; padding: 0% 3% 0% 3%;}
+
+
