@@ -14,3 +14,9 @@
         img{width: 70%; margin-bottom: 1rem;}
     }
 }
+
+.promociones__tratamiento{
+    background-color: $verde;
+    transition: background-color 1.5s;
+}
+.promociones__tratamiento:hover{background-color: $rosaf;}
