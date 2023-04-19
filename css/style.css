@@ -33,6 +33,12 @@
   font-family: "chocolatel";
 }
 
+.menu__lista ul li a:hover {
+  font-size: 110%;
+  font-family: "chocolate";
+  transition: 0.5s all;
+}
+
 @font-face {
   font-family: "footer";
   src: url(../fonts/Autography.otf);
@@ -69,7 +75,7 @@
 }
 
 .footer__autor {
-  background-color: rgb(255, 56, 93);
+  background-image: radial-gradient(circle, rgb(255, 128, 149), rgb(255, 56, 93));
 }
 .footer__autor p {
   display: flex;
