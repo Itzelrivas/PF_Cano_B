@@ -291,7 +291,7 @@
   width: 70%;
 }
 .citas .citas__pasos ul {
-  list-style-type: decimal;
+  list-style-type: disclosure-closed;
 }
 .citas .citas__pasos ul li {
   font-family: "chocolate";
